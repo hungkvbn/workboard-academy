@@ -1,0 +1,694 @@
+{
+  "version": 1,
+  "title": "WorkBoard Academy",
+  "weeks": 32,
+  "labs": 96,
+  "hoursPerWeek": [
+    15,
+    20
+  ],
+  "stages": [
+    {
+      "title": "Dart vững chắc",
+      "start": 1,
+      "end": 3
+    },
+    {
+      "title": "Tư duy Flutter",
+      "start": 4,
+      "end": 7
+    },
+    {
+      "title": "Ứng dụng có dữ liệu",
+      "start": 8,
+      "end": 12
+    },
+    {
+      "title": "Kiến trúc và thay đổi",
+      "start": 13,
+      "end": 16
+    },
+    {
+      "title": "Chất lượng có bằng chứng",
+      "start": 17,
+      "end": 20
+    },
+    {
+      "title": "Offline và hiệu năng",
+      "start": 21,
+      "end": 24
+    },
+    {
+      "title": "Từ thiết bị đến bản beta",
+      "start": 25,
+      "end": 28
+    },
+    {
+      "title": "Làm chủ một sản phẩm",
+      "start": 29,
+      "end": 32
+    }
+  ],
+  "lessons": [
+    {
+      "week": 1,
+      "title": "Tuần 01 — Dart: kiểu dữ liệu, null safety và hàm",
+      "shortTitle": "Dart: kiểu dữ liệu, null safety và hàm",
+      "stage": 0,
+      "labs": [
+        {
+          "id": "W01-L1",
+          "title": "Bộ xử lý tiêu đề"
+        },
+        {
+          "id": "W01-L2",
+          "title": "Hạn hoàn thành"
+        },
+        {
+          "id": "W01-L3",
+          "title": "Chương trình CLI đầu tiên"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Tuần 02 — Collections, model bất biến và generics",
+      "shortTitle": "Collections, model bất biến và generics",
+      "stage": 0,
+      "labs": [
+        {
+          "id": "W02-L1",
+          "title": "Model và thao tác đổi trạng thái"
+        },
+        {
+          "id": "W02-L2",
+          "title": "Bộ lọc và thứ tự"
+        },
+        {
+          "id": "W02-L3",
+          "title": "Kho dữ liệu trong bộ nhớ"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Tuần 03 — Future, Stream và lỗi bất đồng bộ",
+      "shortTitle": "Future, Stream và lỗi bất đồng bộ",
+      "stage": 0,
+      "labs": [
+        {
+          "id": "W03-L1",
+          "title": "Repository JSON bất đồng bộ"
+        },
+        {
+          "id": "W03-L2",
+          "title": "Phòng thí nghiệm thứ tự hoàn thành"
+        },
+        {
+          "id": "W03-L3",
+          "title": "Theo dõi thay đổi và đóng tài nguyên"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Tuần 04 — Widget, layout và constraints",
+      "shortTitle": "Widget, layout và constraints",
+      "stage": 1,
+      "labs": [
+        {
+          "id": "W04-L1",
+          "title": "Thẻ công việc"
+        },
+        {
+          "id": "W04-L2",
+          "title": "Màn hình danh sách"
+        },
+        {
+          "id": "W04-L3",
+          "title": "Phòng thí nghiệm constraints"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Tuần 05 — State, lifecycle và biểu mẫu",
+      "shortTitle": "State, lifecycle và biểu mẫu",
+      "stage": 1,
+      "labs": [
+        {
+          "id": "W05-L1",
+          "title": "Form tạo công việc"
+        },
+        {
+          "id": "W05-L2",
+          "title": "Sửa và hủy"
+        },
+        {
+          "id": "W05-L3",
+          "title": "Lưu chậm và thất bại"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Tuần 06 — Điều hướng, responsive và accessibility",
+      "shortTitle": "Điều hướng, responsive và accessibility",
+      "stage": 1,
+      "labs": [
+        {
+          "id": "W06-L1",
+          "title": "Luồng danh sách, chi tiết, chỉnh sửa"
+        },
+        {
+          "id": "W06-L2",
+          "title": "Hai bố cục, một dữ liệu"
+        },
+        {
+          "id": "W06-L3",
+          "title": "Kiểm tra tiếp cận"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "title": "Tuần 07 — Danh tính widget, danh sách và rebuild",
+      "shortTitle": "Danh tính widget, danh sách và rebuild",
+      "stage": 1,
+      "labs": [
+        {
+          "id": "W07-L1",
+          "title": "Tái hiện lỗi identity"
+        },
+        {
+          "id": "W07-L2",
+          "title": "Danh sách lớn và bộ lọc"
+        },
+        {
+          "id": "W07-L3",
+          "title": "Điều tra một rebuild"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "title": "Tuần 08 — HTTP, JSON và trạng thái dữ liệu từ server",
+      "shortTitle": "HTTP, JSON và trạng thái dữ liệu từ server",
+      "stage": 2,
+      "labs": [
+        {
+          "id": "W08-L1",
+          "title": "Tự đọc hợp đồng qua HTTP"
+        },
+        {
+          "id": "W08-L2",
+          "title": "HTTP repository và màn hình danh sách"
+        },
+        {
+          "id": "W08-L3",
+          "title": "Test boundary và lỗi"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "title": "Tuần 09 — State có chủ sở hữu, Riverpod và dữ liệu bất đồng bộ",
+      "shortTitle": "State có chủ sở hữu, Riverpod và dữ liệu bất đồng bộ",
+      "stage": 2,
+      "labs": [
+        {
+          "id": "W09-L1",
+          "title": "Lập bản đồ và chuyển bộ lọc"
+        },
+        {
+          "id": "W09-L2",
+          "title": "Danh sách bất đồng bộ"
+        },
+        {
+          "id": "W09-L3",
+          "title": "Test chủ sở hữu state"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "title": "Tuần 10 — Đăng nhập, phiên làm việc và phân quyền",
+      "shortTitle": "Đăng nhập, phiên làm việc và phân quyền",
+      "stage": 2,
+      "labs": [
+        {
+          "id": "W10-L1",
+          "title": "Luồng đăng nhập và khởi động"
+        },
+        {
+          "id": "W10-L2",
+          "title": "Phiên lỗi và refresh có giới hạn"
+        },
+        {
+          "id": "W10-L3",
+          "title": "Hai tài khoản, một thiết bị"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "title": "Tuần 11 — Tìm kiếm, phân trang và cuộc đua giữa các request",
+      "shortTitle": "Tìm kiếm, phân trang và cuộc đua giữa các request",
+      "stage": 2,
+      "labs": [
+        {
+          "id": "W11-L1",
+          "title": "Kết quả mới nhất thắng"
+        },
+        {
+          "id": "W11-L2",
+          "title": "Danh sách nhiều trang"
+        },
+        {
+          "id": "W11-L3",
+          "title": "Đổi query giữa lúc tải"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "title": "Tuần 12 — Mô hình dữ liệu, SQL và cache có ranh giới",
+      "shortTitle": "Mô hình dữ liệu, SQL và cache có ranh giới",
+      "stage": 2,
+      "labs": [
+        {
+          "id": "W12-L1",
+          "title": "Bộ dữ liệu có quy tắc"
+        },
+        {
+          "id": "W12-L2",
+          "title": "Adapter local có tham số"
+        },
+        {
+          "id": "W12-L3",
+          "title": "Nâng schema mà giữ dữ liệu"
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "title": "Tuần 13 — Kiến trúc theo trách nhiệm và chiều phụ thuộc",
+      "shortTitle": "Kiến trúc theo trách nhiệm và chiều phụ thuộc",
+      "stage": 3,
+      "labs": [
+        {
+          "id": "W13-L1",
+          "title": "Vẽ hiện trạng và tìm ranh giới"
+        },
+        {
+          "id": "W13-L2",
+          "title": "Chuyển một feature có bảo vệ"
+        },
+        {
+          "id": "W13-L3",
+          "title": "Đổi nguồn mà giữ UI"
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "title": "Tuần 14 — Dependency injection, fake và mô hình lỗi",
+      "shortTitle": "Dependency injection, fake và mô hình lỗi",
+      "stage": 3,
+      "labs": [
+        {
+          "id": "W14-L1",
+          "title": "Tiêm clock và ID"
+        },
+        {
+          "id": "W14-L2",
+          "title": "Bảng ánh xạ lỗi"
+        },
+        {
+          "id": "W14-L3",
+          "title": "Contract test cho hai implementation"
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "title": "Tuần 15 — Thay đổi yêu cầu và đặt quy tắc nghiệp vụ đúng chỗ",
+      "shortTitle": "Thay đổi yêu cầu và đặt quy tắc nghiệp vụ đúng chỗ",
+      "stage": 3,
+      "labs": [
+        {
+          "id": "W15-L1",
+          "title": "Đặc tả bằng ví dụ"
+        },
+        {
+          "id": "W15-L2",
+          "title": "Một quy tắc cho ba nơi"
+        },
+        {
+          "id": "W15-L3",
+          "title": "Hoàn thành và mở lại an toàn"
+        }
+      ]
+    },
+    {
+      "week": 16,
+      "title": "Tuần 16 — Quyết định kỹ thuật, refactor và design review",
+      "shortTitle": "Quyết định kỹ thuật, refactor và design review",
+      "stage": 3,
+      "labs": [
+        {
+          "id": "W16-L1",
+          "title": "Hai ADR có lựa chọn thật"
+        },
+        {
+          "id": "W16-L2",
+          "title": "Refactor một điểm đau"
+        },
+        {
+          "id": "W16-L3",
+          "title": "Design review và phản hồi"
+        }
+      ]
+    },
+    {
+      "week": 17,
+      "title": "Tuần 17 — Unit test bảo vệ quy tắc nghiệp vụ",
+      "shortTitle": "Unit test bảo vệ quy tắc nghiệp vụ",
+      "stage": 4,
+      "labs": [
+        {
+          "id": "W17-L1",
+          "title": "Ma trận quá hạn và bộ lọc (3 giờ)"
+        },
+        {
+          "id": "W17-L2",
+          "title": "Repository có lỗi có chủ đích (3 giờ)"
+        },
+        {
+          "id": "W17-L3",
+          "title": "Sửa một lỗi có bằng chứng (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 18,
+      "title": "Tuần 18 — Widget test và khả năng tiếp cận",
+      "shortTitle": "Widget test và khả năng tiếp cận",
+      "stage": 4,
+      "labs": [
+        {
+          "id": "W18-L1",
+          "title": "Biểu mẫu đáng tin (3 giờ)"
+        },
+        {
+          "id": "W18-L2",
+          "title": "Danh sách qua năm trạng thái (3 giờ)"
+        },
+        {
+          "id": "W18-L3",
+          "title": "Đọc và thao tác được (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 19,
+      "title": "Tuần 19 — Integration test và ranh giới tài khoản",
+      "shortTitle": "Integration test và ranh giới tài khoản",
+      "stage": 4,
+      "labs": [
+        {
+          "id": "W19-L1",
+          "title": "Hành trình quan trọng (3 giờ)"
+        },
+        {
+          "id": "W19-L2",
+          "title": "Kiểm tra quyền bằng API (3 giờ)"
+        },
+        {
+          "id": "W19-L3",
+          "title": "Phiên hết hạn và lỗi mạng (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 20,
+      "title": "Tuần 20 — CI, review và bảo mật ứng dụng",
+      "shortTitle": "CI, review và bảo mật ứng dụng",
+      "stage": 4,
+      "labs": [
+        {
+          "id": "W20-L1",
+          "title": "Pipeline từ máy sạch (3 giờ)"
+        },
+        {
+          "id": "W20-L2",
+          "title": "Review có lập luận (3 giờ)"
+        },
+        {
+          "id": "W20-L3",
+          "title": "Kiểm tra dữ liệu nhạy cảm (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 21,
+      "title": "Tuần 21 — Lưu offline và hàng đợi thao tác",
+      "shortTitle": "Lưu offline và hàng đợi thao tác",
+      "stage": 5,
+      "labs": [
+        {
+          "id": "W21-L1",
+          "title": "Database và nguồn đọc duy nhất (3 giờ)"
+        },
+        {
+          "id": "W21-L2",
+          "title": "Ghi nguyên tử (3 giờ)"
+        },
+        {
+          "id": "W21-L3",
+          "title": "Thử dừng và đổi phiên (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 22,
+      "title": "Tuần 22 — Đồng bộ, xung đột và nâng cấp dữ liệu",
+      "shortTitle": "Đồng bộ, xung đột và nâng cấp dữ liệu",
+      "stage": 5,
+      "labs": [
+        {
+          "id": "W22-L1",
+          "title": "Retry không tạo trùng (3 giờ)"
+        },
+        {
+          "id": "W22-L2",
+          "title": "Hai thiết bị sửa cùng dữ liệu (3 giờ)"
+        },
+        {
+          "id": "W22-L3",
+          "title": "Migration có outbox (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 23,
+      "title": "Tuần 23 — Đo hiệu năng giao diện bằng DevTools",
+      "shortTitle": "Đo hiệu năng giao diện bằng DevTools",
+      "stage": 5,
+      "labs": [
+        {
+          "id": "W23-L1",
+          "title": "Baseline có thể tái hiện (3 giờ)"
+        },
+        {
+          "id": "W23-L2",
+          "title": "Tìm và sửa một điểm nghẽn (3 giờ)"
+        },
+        {
+          "id": "W23-L3",
+          "title": "Hiệu năng không phá tính đúng (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 24,
+      "title": "Tuần 24 — Bộ nhớ, isolate và chi phí tối ưu",
+      "shortTitle": "Bộ nhớ, isolate và chi phí tối ưu",
+      "stage": 5,
+      "labs": [
+        {
+          "id": "W24-L1",
+          "title": "Theo dấu tài nguyên (3 giờ)"
+        },
+        {
+          "id": "W24-L2",
+          "title": "Thí nghiệm JSON nặng (3 giờ)"
+        },
+        {
+          "id": "W24-L3",
+          "title": "Chọn giải pháp cuối (2 giờ)"
+        }
+      ]
+    },
+    {
+      "week": 25,
+      "title": "Tuần 25 — Lifecycle, quyền và giao tiếp với nền tảng",
+      "shortTitle": "Lifecycle, quyền và giao tiếp với nền tảng",
+      "stage": 6,
+      "labs": [
+        {
+          "id": "W25-L1",
+          "title": "Resume an toàn"
+        },
+        {
+          "id": "W25-L2",
+          "title": "Luồng quyền"
+        },
+        {
+          "id": "W25-L3",
+          "title": "Channel nhỏ"
+        }
+      ]
+    },
+    {
+      "week": 26,
+      "title": "Tuần 26 — Deep link, điều hướng và nhắc việc",
+      "shortTitle": "Deep link, điều hướng và nhắc việc",
+      "stage": 6,
+      "labs": [
+        {
+          "id": "W26-L1",
+          "title": "Link vào công việc"
+        },
+        {
+          "id": "W26-L2",
+          "title": "Nhắc việc cục bộ"
+        },
+        {
+          "id": "W26-L3",
+          "title": "Ma trận khởi động"
+        }
+      ]
+    },
+    {
+      "week": 27,
+      "title": "Tuần 27 — Cấu hình, ký ứng dụng và phát hành beta",
+      "shortTitle": "Cấu hình, ký ứng dụng và phát hành beta",
+      "stage": 6,
+      "labs": [
+        {
+          "id": "W27-L1",
+          "title": "Hai cấu hình rõ ràng"
+        },
+        {
+          "id": "W27-L2",
+          "title": "Build có nguồn gốc"
+        },
+        {
+          "id": "W27-L3",
+          "title": "Thử nâng cấp"
+        }
+      ]
+    },
+    {
+      "week": 28,
+      "title": "Tuần 28 — Quan sát hệ thống, migration và diễn tập sự cố",
+      "shortTitle": "Quan sát hệ thống, migration và diễn tập sự cố",
+      "stage": 6,
+      "labs": [
+        {
+          "id": "W28-L1",
+          "title": "Theo dấu lỗi"
+        },
+        {
+          "id": "W28-L2",
+          "title": "Migration có dữ liệu cũ"
+        },
+        {
+          "id": "W28-L3",
+          "title": "Diễn tập 60 phút"
+        }
+      ]
+    },
+    {
+      "week": 29,
+      "title": "Tuần 29 — Làm rõ yêu cầu, thiết kế và ước lượng",
+      "shortTitle": "Làm rõ yêu cầu, thiết kế và ước lượng",
+      "stage": 7,
+      "labs": [
+        {
+          "id": "W29-L1",
+          "title": "Đặc tả MVP"
+        },
+        {
+          "id": "W29-L2",
+          "title": "Contract và prototype"
+        },
+        {
+          "id": "W29-L3",
+          "title": "Review và ước lượng"
+        }
+      ]
+    },
+    {
+      "week": 30,
+      "title": "Tuần 30 — Thử nghiệm beta và ưu tiên từ phản hồi",
+      "shortTitle": "Thử nghiệm beta và ưu tiên từ phản hồi",
+      "stage": 7,
+      "labs": [
+        {
+          "id": "W30-L1",
+          "title": "Năm nhiệm vụ beta"
+        },
+        {
+          "id": "W30-L2",
+          "title": "Backlog dựa trên bằng chứng"
+        },
+        {
+          "id": "W30-L3",
+          "title": "Một vòng cải tiến"
+        }
+      ]
+    },
+    {
+      "week": 31,
+      "title": "Tuần 31 — Bảo trì, nâng dependency và review",
+      "shortTitle": "Bảo trì, nâng dependency và review",
+      "stage": 7,
+      "labs": [
+        {
+          "id": "W31-L1",
+          "title": "Một dependency upgrade"
+        },
+        {
+          "id": "W31-L2",
+          "title": "Refactor có bảo vệ"
+        },
+        {
+          "id": "W31-L3",
+          "title": "Review và onboarding"
+        }
+      ]
+    },
+    {
+      "week": 32,
+      "title": "Tuần 32 — Bảo vệ dự án và xây kế hoạch phát triển tiếp",
+      "shortTitle": "Bảo vệ dự án và xây kế hoạch phát triển tiếp",
+      "stage": 7,
+      "labs": [
+        {
+          "id": "W32-L1",
+          "title": "Hồ sơ hoàn thành"
+        },
+        {
+          "id": "W32-L2",
+          "title": "Bảo vệ 45 phút"
+        },
+        {
+          "id": "W32-L3",
+          "title": "Kế hoạch 90 ngày"
+        }
+      ]
+    }
+  ]
+}

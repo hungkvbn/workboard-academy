@@ -1,0 +1,97 @@
+﻿id,week,milestone,title,status,evidence,lesson,depends_on
+W01-L1,1,M1,Bộ xử lý tiêu đề,Chưa bắt đầu,,lessons/week-01.md,Cài Dart/Flutter và Git
+W01-L2,1,M1,Hạn hoàn thành,Chưa bắt đầu,,lessons/week-01.md,Cài Dart/Flutter và Git
+W01-L3,1,M1,Chương trình CLI đầu tiên,Chưa bắt đầu,,lessons/week-01.md,Cài Dart/Flutter và Git
+W02-L1,2,M1,Model và thao tác đổi trạng thái,Chưa bắt đầu,,lessons/week-02.md,W01
+W02-L2,2,M1,Bộ lọc và thứ tự,Chưa bắt đầu,,lessons/week-02.md,W01
+W02-L3,2,M1,Kho dữ liệu trong bộ nhớ,Chưa bắt đầu,,lessons/week-02.md,W01
+W03-L1,3,M1,Repository JSON bất đồng bộ,Chưa bắt đầu,,lessons/week-03.md,W02
+W03-L2,3,M1,Phòng thí nghiệm thứ tự hoàn thành,Chưa bắt đầu,,lessons/week-03.md,W02
+W03-L3,3,M1,Theo dõi thay đổi và đóng tài nguyên,Chưa bắt đầu,,lessons/week-03.md,W02
+W04-L1,4,M2,Thẻ công việc,Chưa bắt đầu,,lessons/week-04.md,W03
+W04-L2,4,M2,Màn hình danh sách,Chưa bắt đầu,,lessons/week-04.md,W03
+W04-L3,4,M2,Phòng thí nghiệm constraints,Chưa bắt đầu,,lessons/week-04.md,W03
+W05-L1,5,M2,Form tạo công việc,Chưa bắt đầu,,lessons/week-05.md,W04
+W05-L2,5,M2,Sửa và hủy,Chưa bắt đầu,,lessons/week-05.md,W04
+W05-L3,5,M2,Lưu chậm và thất bại,Chưa bắt đầu,,lessons/week-05.md,W04
+W06-L1,6,M2,"Luồng danh sách, chi tiết, chỉnh sửa",Chưa bắt đầu,,lessons/week-06.md,W05
+W06-L2,6,M2,"Hai bố cục, một dữ liệu",Chưa bắt đầu,,lessons/week-06.md,W05
+W06-L3,6,M2,Kiểm tra tiếp cận,Chưa bắt đầu,,lessons/week-06.md,W05
+W07-L1,7,M2,Tái hiện lỗi identity,Chưa bắt đầu,,lessons/week-07.md,W06
+W07-L2,7,M2,Danh sách lớn và bộ lọc,Chưa bắt đầu,,lessons/week-07.md,W06
+W07-L3,7,M2,Điều tra một rebuild,Chưa bắt đầu,,lessons/week-07.md,W06
+W08-L1,8,M3,Tự đọc hợp đồng qua HTTP,Chưa bắt đầu,,lessons/week-08.md,W07
+W08-L2,8,M3,HTTP repository và màn hình danh sách,Chưa bắt đầu,,lessons/week-08.md,W07
+W08-L3,8,M3,Test boundary và lỗi,Chưa bắt đầu,,lessons/week-08.md,W07
+W09-L1,9,M3,Lập bản đồ và chuyển bộ lọc,Chưa bắt đầu,,lessons/week-09.md,W08
+W09-L2,9,M3,Danh sách bất đồng bộ,Chưa bắt đầu,,lessons/week-09.md,W08
+W09-L3,9,M3,Test chủ sở hữu state,Chưa bắt đầu,,lessons/week-09.md,W08
+W10-L1,10,M3,Luồng đăng nhập và khởi động,Chưa bắt đầu,,lessons/week-10.md,W09
+W10-L2,10,M3,Phiên lỗi và refresh có giới hạn,Chưa bắt đầu,,lessons/week-10.md,W09
+W10-L3,10,M3,"Hai tài khoản, một thiết bị",Chưa bắt đầu,,lessons/week-10.md,W09
+W11-L1,11,M3,Kết quả mới nhất thắng,Chưa bắt đầu,,lessons/week-11.md,W10
+W11-L2,11,M3,Danh sách nhiều trang,Chưa bắt đầu,,lessons/week-11.md,W10
+W11-L3,11,M3,Đổi query giữa lúc tải,Chưa bắt đầu,,lessons/week-11.md,W10
+W12-L1,12,M3,Bộ dữ liệu có quy tắc,Chưa bắt đầu,,lessons/week-12.md,W11
+W12-L2,12,M3,Adapter local có tham số,Chưa bắt đầu,,lessons/week-12.md,W11
+W12-L3,12,M3,Nâng schema mà giữ dữ liệu,Chưa bắt đầu,,lessons/week-12.md,W11
+W13-L1,13,M4,Vẽ hiện trạng và tìm ranh giới,Chưa bắt đầu,,lessons/week-13.md,W12
+W13-L2,13,M4,Chuyển một feature có bảo vệ,Chưa bắt đầu,,lessons/week-13.md,W12
+W13-L3,13,M4,Đổi nguồn mà giữ UI,Chưa bắt đầu,,lessons/week-13.md,W12
+W14-L1,14,M4,Tiêm clock và ID,Chưa bắt đầu,,lessons/week-14.md,W13
+W14-L2,14,M4,Bảng ánh xạ lỗi,Chưa bắt đầu,,lessons/week-14.md,W13
+W14-L3,14,M4,Contract test cho hai implementation,Chưa bắt đầu,,lessons/week-14.md,W13
+W15-L1,15,M4,Đặc tả bằng ví dụ,Chưa bắt đầu,,lessons/week-15.md,W14
+W15-L2,15,M4,Một quy tắc cho ba nơi,Chưa bắt đầu,,lessons/week-15.md,W14
+W15-L3,15,M4,Hoàn thành và mở lại an toàn,Chưa bắt đầu,,lessons/week-15.md,W14
+W16-L1,16,M4,Hai ADR có lựa chọn thật,Chưa bắt đầu,,lessons/week-16.md,W15
+W16-L2,16,M4,Refactor một điểm đau,Chưa bắt đầu,,lessons/week-16.md,W15
+W16-L3,16,M4,Design review và phản hồi,Chưa bắt đầu,,lessons/week-16.md,W15
+W17-L1,17,M5,Ma trận quá hạn và bộ lọc (3 giờ),Chưa bắt đầu,,lessons/week-17.md,W16
+W17-L2,17,M5,Repository có lỗi có chủ đích (3 giờ),Chưa bắt đầu,,lessons/week-17.md,W16
+W17-L3,17,M5,Sửa một lỗi có bằng chứng (2 giờ),Chưa bắt đầu,,lessons/week-17.md,W16
+W18-L1,18,M5,Biểu mẫu đáng tin (3 giờ),Chưa bắt đầu,,lessons/week-18.md,W17
+W18-L2,18,M5,Danh sách qua năm trạng thái (3 giờ),Chưa bắt đầu,,lessons/week-18.md,W17
+W18-L3,18,M5,Đọc và thao tác được (2 giờ),Chưa bắt đầu,,lessons/week-18.md,W17
+W19-L1,19,M5,Hành trình quan trọng (3 giờ),Chưa bắt đầu,,lessons/week-19.md,W18
+W19-L2,19,M5,Kiểm tra quyền bằng API (3 giờ),Chưa bắt đầu,,lessons/week-19.md,W18
+W19-L3,19,M5,Phiên hết hạn và lỗi mạng (2 giờ),Chưa bắt đầu,,lessons/week-19.md,W18
+W20-L1,20,M5,Pipeline từ máy sạch (3 giờ),Chưa bắt đầu,,lessons/week-20.md,W19
+W20-L2,20,M5,Review có lập luận (3 giờ),Chưa bắt đầu,,lessons/week-20.md,W19
+W20-L3,20,M5,Kiểm tra dữ liệu nhạy cảm (2 giờ),Chưa bắt đầu,,lessons/week-20.md,W19
+W21-L1,21,M6,Database và nguồn đọc duy nhất (3 giờ),Chưa bắt đầu,,lessons/week-21.md,W20
+W21-L2,21,M6,Ghi nguyên tử (3 giờ),Chưa bắt đầu,,lessons/week-21.md,W20
+W21-L3,21,M6,Thử dừng và đổi phiên (2 giờ),Chưa bắt đầu,,lessons/week-21.md,W20
+W22-L1,22,M6,Retry không tạo trùng (3 giờ),Chưa bắt đầu,,lessons/week-22.md,W21
+W22-L2,22,M6,Hai thiết bị sửa cùng dữ liệu (3 giờ),Chưa bắt đầu,,lessons/week-22.md,W21
+W22-L3,22,M6,Migration có outbox (2 giờ),Chưa bắt đầu,,lessons/week-22.md,W21
+W23-L1,23,M6,Baseline có thể tái hiện (3 giờ),Chưa bắt đầu,,lessons/week-23.md,W22
+W23-L2,23,M6,Tìm và sửa một điểm nghẽn (3 giờ),Chưa bắt đầu,,lessons/week-23.md,W22
+W23-L3,23,M6,Hiệu năng không phá tính đúng (2 giờ),Chưa bắt đầu,,lessons/week-23.md,W22
+W24-L1,24,M6,Theo dấu tài nguyên (3 giờ),Chưa bắt đầu,,lessons/week-24.md,W23
+W24-L2,24,M6,Thí nghiệm JSON nặng (3 giờ),Chưa bắt đầu,,lessons/week-24.md,W23
+W24-L3,24,M6,Chọn giải pháp cuối (2 giờ),Chưa bắt đầu,,lessons/week-24.md,W23
+W25-L1,25,M7,Resume an toàn,Chưa bắt đầu,,lessons/week-25.md,W24
+W25-L2,25,M7,Luồng quyền,Chưa bắt đầu,,lessons/week-25.md,W24
+W25-L3,25,M7,Channel nhỏ,Chưa bắt đầu,,lessons/week-25.md,W24
+W26-L1,26,M7,Link vào công việc,Chưa bắt đầu,,lessons/week-26.md,W25
+W26-L2,26,M7,Nhắc việc cục bộ,Chưa bắt đầu,,lessons/week-26.md,W25
+W26-L3,26,M7,Ma trận khởi động,Chưa bắt đầu,,lessons/week-26.md,W25
+W27-L1,27,M7,Hai cấu hình rõ ràng,Chưa bắt đầu,,lessons/week-27.md,W26
+W27-L2,27,M7,Build có nguồn gốc,Chưa bắt đầu,,lessons/week-27.md,W26
+W27-L3,27,M7,Thử nâng cấp,Chưa bắt đầu,,lessons/week-27.md,W26
+W28-L1,28,M7,Theo dấu lỗi,Chưa bắt đầu,,lessons/week-28.md,W27
+W28-L2,28,M7,Migration có dữ liệu cũ,Chưa bắt đầu,,lessons/week-28.md,W27
+W28-L3,28,M7,Diễn tập 60 phút,Chưa bắt đầu,,lessons/week-28.md,W27
+W29-L1,29,M8,Đặc tả MVP,Chưa bắt đầu,,lessons/week-29.md,W28
+W29-L2,29,M8,Contract và prototype,Chưa bắt đầu,,lessons/week-29.md,W28
+W29-L3,29,M8,Review và ước lượng,Chưa bắt đầu,,lessons/week-29.md,W28
+W30-L1,30,M8,Năm nhiệm vụ beta,Chưa bắt đầu,,lessons/week-30.md,W29
+W30-L2,30,M8,Backlog dựa trên bằng chứng,Chưa bắt đầu,,lessons/week-30.md,W29
+W30-L3,30,M8,Một vòng cải tiến,Chưa bắt đầu,,lessons/week-30.md,W29
+W31-L1,31,M8,Một dependency upgrade,Chưa bắt đầu,,lessons/week-31.md,W30
+W31-L2,31,M8,Refactor có bảo vệ,Chưa bắt đầu,,lessons/week-31.md,W30
+W31-L3,31,M8,Review và onboarding,Chưa bắt đầu,,lessons/week-31.md,W30
+W32-L1,32,M8,Hồ sơ hoàn thành,Chưa bắt đầu,,lessons/week-32.md,W31
+W32-L2,32,M8,Bảo vệ 45 phút,Chưa bắt đầu,,lessons/week-32.md,W31
+W32-L3,32,M8,Kế hoạch 90 ngày,Chưa bắt đầu,,lessons/week-32.md,W31
