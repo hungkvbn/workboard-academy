@@ -1,6 +1,6 @@
 # Dart starter — tuần 01 đến 03
 
-Đây là bộ khởi đầu để bạn **đọc một ví dụ đúng, rồi tự làm bài tập**. Nó chưa phải CLI hoàn chỉnh. Model `WorkTask` và demo đã có; bốn hàm trong `lib/src/exercises.dart` cố ý ném `UnimplementedError`.
+Đây là bộ khởi đầu để bạn **đọc một ví dụ đúng, rồi tự làm bài tập**. Nó chưa phải CLI hoàn chỉnh. Model `WorkTask` và demo đã có; năm hàm trong `lib/src/exercises.dart` cố ý ném `UnimplementedError`.
 
 ## Chạy lần đầu
 
@@ -22,7 +22,7 @@ Demo in hai phiên bản của cùng công việc: bản gốc `todo`, bản sao
 |---|---|
 | Model bất biến, enum, trim title, UTC, JSON, copyWith | Ví dụ đã triển khai |
 | 8 test cho model | Test nền tảng cần chạy xanh |
-| normalizeTitle, titleError, filterTasks, sortTasks | Bài tập chưa triển khai |
+| normalizeTitle, titleError, isOverdue, filterTasks, sortTasks | Bài tập chưa triển khai |
 | 4 test bài tập | Cố ý bị skip cho tới khi bạn bắt đầu bài tập |
 | Menu CLI, lưu file, repository async, xử lý lỗi file | Bạn xây trong tuần 01–03 |
 
@@ -32,7 +32,7 @@ Chạy `dart test` có thể báo thành công dù 4 bài tập bị skip. **Đi
 dart test test/exercises_test.dart
 ```
 
-Lần đầu test sẽ thất bại vì `UnimplementedError`. Viết phần thân bốn hàm để test xanh, sau đó bổ sung trường hợp mà bộ test còn thiếu. Không sửa assertion để khớp với kết quả sai.
+Lần đầu test sẽ thất bại vì `UnimplementedError`. Viết phần thân các hàm để test xanh, sau đó bổ sung trường hợp mà bộ test còn thiếu. Không sửa assertion để khớp với kết quả sai.
 
 ## Hợp đồng bài tập
 
@@ -53,3 +53,17 @@ Ví dụ: `[b(hạn 01/02), z(không hạn), a(hạn 01/02)]` phải thành `[a,
 Model chưa override `==`: hai instance khác nhau chưa có value equality. Hãy đọc yêu cầu tuần 02 trước khi bổ sung, và test cùng lúc cả `==` lẫn `hashCode` nếu quyết định làm.
 
 Tài liệu: [Dart language](https://dart.dev/language), [package:test](https://pub.dev/packages/test).
+
+## W01-L2 — Kiểm tra quá hạn
+
+Khung `isOverdue` nằm trong `lib/src/exercises.dart`. Triển khai theo bài giảng,
+không gọi đồng hồ thật bên trong hàm. Mở `test/overdue_test.dart`, bỏ tham số
+`skip` của group rồi chạy riêng sáu test của lab:
+
+```bash
+dart test test/overdue_test.dart
+```
+
+Test phải thất bại với `UnimplementedError` trước khi bạn viết phần thân hàm.
+Sau khi hoàn thành, cả sáu trường hợp phải vượt qua. Các test lọc/sắp xếp W02
+trong `exercises_test.dart` có thể tiếp tục skip cho tới tuần 02.

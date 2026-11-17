@@ -13,6 +13,17 @@ String? titleError(String input) {
   throw UnimplementedError('Bài tập W01: titleError');
 }
 
+/// W01-L2: công việc quá hạn khi có hạn nhỏ hơn now và chưa hoàn thành.
+/// Hạn bằng now không quá hạn. So sánh thời điểm, không so chuỗi ngày.
+bool isOverdue({
+  DateTime? dueAt,
+  required DateTime now,
+  required bool isDone,
+}) {
+  // TODO(W01-L2): xử lý null, trạng thái hoàn thành và ranh giới thời gian.
+  throw UnimplementedError('Bài tập W01-L2: isOverdue');
+}
+
 /// W02: lọc theo status nếu được cung cấp; query trim, không phân biệt hoa
 /// thường và tìm trong title. Query rỗng khớp mọi tiêu đề.
 /// Giữ thứ tự đầu vào và trả về list mới.
